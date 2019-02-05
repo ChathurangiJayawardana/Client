@@ -1,0 +1,70 @@
+﻿@page
+@model MCMS.Pages.Appointment.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Appointments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.AppointedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.AppointedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.IsPresent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.IsPresent)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Diagnosis)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Diagnosis)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Clinic.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.CreatedByNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.CreatedByNavigation.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Doctor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Doctor.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Patient)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Patient.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Session)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Session.Id)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Appointments.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+﻿@page
+@model MCMS.Pages.CardPayment.CardModel
+@{
+    ViewData["Title"] = "Card";
+}
+
+<h2>Card</h2>
+
+This is card payment
+
+@using Microsoft.Extensions.Options
+@inject IOptions<MCMS.Common.MCMS.Common.Utils.StripeSettings> Stripe
+
+<form action="" method="POST">
+    <input type="hidden" name="payment_id" value="@Model.Payments.Id" />
+    <article>
+        <label>Amount: @Model.Payments.Amount</label>
+    </article>
+    <script src="//checkout.stripe.com/v2/checkout.js"
+            class="stripe-button"
+            data-key="@Stripe.Value.PublishableKey"
+            data-locale="auto"
+            data-description="Medical Fee"
+            data-amount="@(Model.Payments.Amount * 100)" data-currency="lkr">
+    </script>
+</form>

@@ -1,0 +1,55 @@
+﻿@page
+@model MCMS.Pages.Session.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sessions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Start)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Start)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Stop)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Stop)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.HasConducted)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.HasConducted)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Fee)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Fee)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Clinic.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Doctor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Doctor.Phone)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Sessions.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

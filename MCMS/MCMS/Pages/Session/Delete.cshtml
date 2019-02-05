@@ -1,0 +1,58 @@
+﻿@page
+@model MCMS.Pages.Session.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Sessions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Start)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Start)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Stop)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Stop)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.HasConducted)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.HasConducted)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Fee)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Fee)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Clinic.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Sessions.Doctor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sessions.Doctor.Phone)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Sessions.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,61 @@
+﻿@page
+@model MCMS.Pages.Prescription.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Prescriptions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.Quantity)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.Quantity)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.Dosage)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.Dosage)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.Notes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.Notes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.IssuedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.IssuedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.IsPublic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.IsPublic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.Appointment)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.Appointment.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Prescriptions.Inventory)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prescriptions.Inventory.BrandName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Prescriptions.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

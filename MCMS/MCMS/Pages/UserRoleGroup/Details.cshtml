@@ -1,0 +1,31 @@
+﻿@page
+@model MCMS.Pages.UserRoleGroup.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UserRoleGroups</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserRoleGroups.RoleGroup)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserRoleGroups.RoleGroup.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UserRoleGroups.User)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserRoleGroups.User.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-page="./Index">Back to List</a>
+</div>

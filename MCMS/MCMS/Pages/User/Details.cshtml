@@ -1,0 +1,43 @@
+﻿@page
+@model MCMS.Pages.User.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Users</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Users.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Users.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Password)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Users.Password)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Users.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Users.Clinic.Address)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Users.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

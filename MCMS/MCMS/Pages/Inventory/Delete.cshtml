@@ -1,0 +1,106 @@
+﻿@page
+@model MCMS.Pages.Inventory.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Inventories</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.GenericName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.GenericName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.BrandName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.BrandName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.ExpiryDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.ExpiryDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.StorageTemperature)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.StorageTemperature)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.Manufacturer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.Manufacturer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.Strength)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.Strength)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.Quantity)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.Quantity)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.UnitPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.UnitPrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.BatchNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.BatchNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.ReorderLevel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.ReorderLevel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.ManufacturedDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.ManufacturedDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.Notes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.Notes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.AddedByNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.AddedByNavigation.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Inventories.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Inventories.Clinic.Address)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Inventories.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

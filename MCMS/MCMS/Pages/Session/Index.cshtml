@@ -1,0 +1,66 @@
+﻿@page
+@model MCMS.Pages.Session.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].Start)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].Stop)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].HasConducted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].Fee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].Clinic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sessions[0].Doctor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Sessions) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stop)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasConducted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clinic.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Doctor.Phone)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

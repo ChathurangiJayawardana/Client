@@ -1,0 +1,48 @@
+﻿@page
+@model MCMS.Pages.RoleModel
+@{
+    ViewData["Title"] = "Role";
+}
+
+
+
+<h2>Role</h2>
+
+<div id="roles">
+    <table class="table table-responsive table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="roles-tbody">
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+    $(function () {
+        $.ajax({
+            url: "@Model.Url",
+            method: "GET",
+            success: function (data) {
+                //console.log(data);
+
+                if (data.length > 0) {
+                    $.each(data, function (index, role) {
+                        console.log(index + ", role: ", role);
+                        var html = "<tr> <td>";
+                        html += role.id + "</td> <td>" + role.description + "</td><td>"+;
+                        html += "</td></tr>";
+                        $("#roles-tbody").append(html);
+                    });
+                }
+
+                
+            }
+        });
+    });
+</script>

@@ -1,0 +1,67 @@
+﻿@page
+@model MCMS.Pages.Clinic.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Clinics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.RegNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.RegNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.SubscribedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.SubscribedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.BillingCycle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.BillingCycle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.IsActive)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.IsActive)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Clinics.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

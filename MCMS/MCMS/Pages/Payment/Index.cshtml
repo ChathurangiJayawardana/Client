@@ -1,0 +1,72 @@
+﻿@page
+@model MCMS.Pages.Payment.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Payments[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Payments[0].Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Payments[0].PaidAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Payments[0].IsReceived)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Payments[0].Appointment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Payments) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaidAt)
+            </td>
+            <td>
+                @if (item.IsReceived == 1)
+                {
+                    <label class="success label-success">Paid</label>
+                }
+                else
+                {
+                    <label class="success label-danger">Not Paid</label>
+                }
+                @*@Html.DisplayFor(modelItem => item.IsReceived)*@
+            </td>
+            <td>
+                <a href="/Appointment/Details?id=@item.AppointmentId">
+                    @Html.DisplayFor(modelItem => item.Appointment.Id)
+                </a>
+                
+            </td>
+            <td>
+                <a href="/CardPayment/Card?id=@item.Id" class="btn btn-primary">Pay</a>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,46 @@
+﻿@page
+@model MCMS.Pages.SubscriptionInvoice.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>SubscriptionInvoices</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionInvoices.Amount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionInvoices.Amount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionInvoices.IssuedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionInvoices.IssuedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionInvoices.PaidAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionInvoices.PaidAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SubscriptionInvoices.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SubscriptionInvoices.Clinic.Address)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="SubscriptionInvoices.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

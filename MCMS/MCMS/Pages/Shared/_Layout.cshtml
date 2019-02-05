@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MCMS</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    @*<link href="~/css/dashboard.css" rel="stylesheet" />*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-page="/Index" class="navbar-brand">MCMS</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-page="/">Home</a></li>
+                    <li><a href="/Appointment">Appointments</a></li>
+                    <li><a href="/Clinic">Clinic</a></li>
+
+                    <li><a href="/Doctor">Doctors</a></li>
+                    <li><a href="/Inventory">Inventory</a></li>
+                    <li><a href="/Patient">Patient</a></li>
+                    <li><a href="/Payment">Payments</a></li>
+                    <li><a href="/Prescription">Prescription</a></li>
+                    <li><a href="/Role">Role</a></li>
+                    <li><a href="/RoleCarryOut">Role Assign</a></li>
+                    <li><a href="/RoleGroup">RoleGroup</a></li>
+                    <li><a href="/Session">Session</a></li>
+                    <li><a href="/Settlement">Settlement</a></li>
+                    <li><a href="/SubscriptionInvoice">Subscription Invoices</a></li>
+
+                    <li><a href="/User">User</a></li>
+                    <li><a href="/UserRoleGroup">User Role Groups</a></li>
+                    <li><a href="/Settlement">Settlement</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @*<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/">MCMS</a>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="/appointment">Appointments</a>
+                <a class="nav-link" href="#">Sign out</a>
+            </li>
+        </ul>
+    </nav>*@
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container body-content">
+        <br />
+        <br />
+        <br />
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <br />
+        <br />
+
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2019 - MCMS</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

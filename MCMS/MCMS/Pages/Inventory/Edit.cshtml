@@ -1,0 +1,100 @@
+﻿@page
+@model MCMS.Pages.Inventory.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Inventories</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Inventories.Id" />
+            <div class="form-group">
+                <label asp-for="Inventories.ClinicId" class="control-label"></label>
+                <select asp-for="Inventories.ClinicId" class="form-control" asp-items="ViewBag.ClinicId"></select>
+                <span asp-validation-for="Inventories.ClinicId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.AddedBy" class="control-label"></label>
+                <select asp-for="Inventories.AddedBy" class="form-control" asp-items="ViewBag.AddedBy"></select>
+                <span asp-validation-for="Inventories.AddedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.GenericName" class="control-label"></label>
+                <input asp-for="Inventories.GenericName" class="form-control" />
+                <span asp-validation-for="Inventories.GenericName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.BrandName" class="control-label"></label>
+                <input asp-for="Inventories.BrandName" class="form-control" />
+                <span asp-validation-for="Inventories.BrandName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.ExpiryDate" class="control-label"></label>
+                <input asp-for="Inventories.ExpiryDate" class="form-control" />
+                <span asp-validation-for="Inventories.ExpiryDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.StorageTemperature" class="control-label"></label>
+                <input asp-for="Inventories.StorageTemperature" class="form-control" />
+                <span asp-validation-for="Inventories.StorageTemperature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.Manufacturer" class="control-label"></label>
+                <input asp-for="Inventories.Manufacturer" class="form-control" />
+                <span asp-validation-for="Inventories.Manufacturer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.Strength" class="control-label"></label>
+                <input asp-for="Inventories.Strength" class="form-control" />
+                <span asp-validation-for="Inventories.Strength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.Quantity" class="control-label"></label>
+                <input asp-for="Inventories.Quantity" class="form-control" />
+                <span asp-validation-for="Inventories.Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.UnitPrice" class="control-label"></label>
+                <input asp-for="Inventories.UnitPrice" class="form-control" />
+                <span asp-validation-for="Inventories.UnitPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.BatchNo" class="control-label"></label>
+                <input asp-for="Inventories.BatchNo" class="form-control" />
+                <span asp-validation-for="Inventories.BatchNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.ReorderLevel" class="control-label"></label>
+                <input asp-for="Inventories.ReorderLevel" class="form-control" />
+                <span asp-validation-for="Inventories.ReorderLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.ManufacturedDate" class="control-label"></label>
+                <input asp-for="Inventories.ManufacturedDate" class="form-control" />
+                <span asp-validation-for="Inventories.ManufacturedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Inventories.Notes" class="control-label"></label>
+                <input asp-for="Inventories.Notes" class="form-control" />
+                <span asp-validation-for="Inventories.Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

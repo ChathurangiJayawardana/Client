@@ -1,0 +1,78 @@
+﻿@page
+@model MCMS.Pages.Appointment.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].AppointedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].IsPresent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].Diagnosis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].Clinic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].CreatedByNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].Doctor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].Patient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Appointments[0].Session)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Appointments) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppointedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsPresent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diagnosis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clinic.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedByNavigation.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Doctor.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Session.Id)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

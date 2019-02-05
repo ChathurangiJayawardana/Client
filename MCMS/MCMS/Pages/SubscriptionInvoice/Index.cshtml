@@ -1,0 +1,54 @@
+﻿@page
+@model MCMS.Pages.SubscriptionInvoice.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionInvoices[0].Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionInvoices[0].IssuedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionInvoices[0].PaidAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubscriptionInvoices[0].Clinic)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.SubscriptionInvoices) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IssuedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaidAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clinic.Address)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

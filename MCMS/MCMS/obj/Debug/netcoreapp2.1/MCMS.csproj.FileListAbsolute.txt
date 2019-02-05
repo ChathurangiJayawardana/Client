@@ -1,0 +1,220 @@
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.deps.json
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.runtimeconfig.json
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.runtimeconfig.dev.json
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.dll
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.pdb
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.Views.dll
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.Views.pdb
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csprojAssemblyReference.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csproj.CoreCompileInputs.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorAssemblyInfo.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorAssemblyInfo.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.AssemblyInfoInputs.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.AssemblyInfo.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.TagHelpers.input.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.TagHelpers.output.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorCoreGenerate.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\TestClinics.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\TestRole.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorTargetAssemblyInfo.cache
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorTargetAssemblyInfo.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.Views.pdb
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.dll
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.pdb
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csproj.CopyComplete
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Create.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Delete.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Details.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Edit.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Index.g.cshtml.cs
+D:\Anjana\MyProjects\Work\Other\MedicalCenterMS\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\CardPayment\Card.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.deps.json
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.runtimeconfig.json
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.runtimeconfig.dev.json
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.dll
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.pdb
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.Views.dll
+F:\New folder\Client\MCMS\MCMS\bin\Debug\netcoreapp2.1\MCMS.Views.pdb
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csproj.CoreCompileInputs.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorAssemblyInfo.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorAssemblyInfo.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.AssemblyInfoInputs.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.AssemblyInfo.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.TagHelpers.input.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.TagHelpers.output.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorCoreGenerate.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Appointment\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\CardPayment\Card.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Clinic\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Doctor\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Inventory\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Patient\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Payment\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Prescription\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleCarryOut\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\RoleGroup\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Role\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Session\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Settlement\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\SubscriptionInvoice\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\TestClinics.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\TestRole.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\UserRoleGroup\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Create.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Delete.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Details.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Edit.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\User\Index.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorTargetAssemblyInfo.cache
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.RazorTargetAssemblyInfo.cs
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.Views.pdb
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.dll
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.pdb
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csproj.CopyComplete
+F:\New folder\Client\MCMS\MCMS\obj\Debug\netcoreapp2.1\MCMS.csprojAssemblyReference.cache

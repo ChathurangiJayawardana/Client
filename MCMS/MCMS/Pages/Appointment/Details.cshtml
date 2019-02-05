@@ -1,0 +1,67 @@
+﻿@page
+@model MCMS.Pages.Appointment.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Appointments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.AppointedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.AppointedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.IsPresent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.IsPresent)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Diagnosis)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Diagnosis)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Clinic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Clinic.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.CreatedByNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.CreatedByNavigation.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Doctor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Doctor.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Patient)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Patient.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Appointments.Session)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Appointments.Session.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Appointments.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

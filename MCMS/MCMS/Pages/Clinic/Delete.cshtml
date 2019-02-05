@@ -1,0 +1,70 @@
+﻿@page
+@model MCMS.Pages.Clinic.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Clinics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.RegNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.RegNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.SubscribedAt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.SubscribedAt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.BillingCycle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.BillingCycle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Clinics.IsActive)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Clinics.IsActive)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Clinics.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

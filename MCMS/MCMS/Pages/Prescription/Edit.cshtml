@@ -1,0 +1,65 @@
+﻿@page
+@model MCMS.Pages.Prescription.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Prescriptions</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Prescriptions.Id" />
+            <div class="form-group">
+                <label asp-for="Prescriptions.AppointmentId" class="control-label"></label>
+                <select asp-for="Prescriptions.AppointmentId" class="form-control" asp-items="ViewBag.AppointmentId"></select>
+                <span asp-validation-for="Prescriptions.AppointmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.InventoryId" class="control-label"></label>
+                <select asp-for="Prescriptions.InventoryId" class="form-control" asp-items="ViewBag.InventoryId"></select>
+                <span asp-validation-for="Prescriptions.InventoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.Quantity" class="control-label"></label>
+                <input asp-for="Prescriptions.Quantity" class="form-control" />
+                <span asp-validation-for="Prescriptions.Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.Dosage" class="control-label"></label>
+                <input asp-for="Prescriptions.Dosage" class="form-control" />
+                <span asp-validation-for="Prescriptions.Dosage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.Notes" class="control-label"></label>
+                <input asp-for="Prescriptions.Notes" class="form-control" />
+                <span asp-validation-for="Prescriptions.Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.IssuedAt" class="control-label"></label>
+                <input asp-for="Prescriptions.IssuedAt" class="form-control" />
+                <span asp-validation-for="Prescriptions.IssuedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prescriptions.IsPublic" class="control-label"></label>
+                <input asp-for="Prescriptions.IsPublic" class="form-control" />
+                <span asp-validation-for="Prescriptions.IsPublic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

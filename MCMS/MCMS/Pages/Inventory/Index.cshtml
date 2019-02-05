@@ -1,0 +1,114 @@
+﻿@page
+@model MCMS.Pages.Inventory.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].GenericName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].BrandName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].ExpiryDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].StorageTemperature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].Manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].Strength)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].BatchNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].ReorderLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].ManufacturedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].Notes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].AddedByNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inventories[0].Clinic)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Inventories) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GenericName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BrandName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpiryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StorageTemperature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Strength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BatchNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReorderLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManufacturedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddedByNavigation.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clinic.Address)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
